@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import string
-result = string.ascii_lowercase
-print(f"{result}")
+for char in range(26):
+    print("{:s}".format(chr(char + ord("a"))), end="")
